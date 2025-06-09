@@ -1,0 +1,6 @@
+- externalId: {{icapi_ds_external_id}}
+  name: Overall Equipment Effectiveness Use Case
+  description: This dataset contains data for the CDF bootcamp
+  writeProtected: false
+  metadata:
+    origin: cognite-toolkit

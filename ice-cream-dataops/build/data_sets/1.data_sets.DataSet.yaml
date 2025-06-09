@@ -1,0 +1,6 @@
+- externalId: ds_icapi
+  name: Ice Cream Factory Source Data
+  description: This dataset contains data for the CDF bootcamp
+  writeProtected: false
+  metadata:
+    origin: cognite-toolkit
