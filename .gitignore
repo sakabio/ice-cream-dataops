@@ -1,2 +1,5 @@
 .env
 .env.local
+/function_local_venvs/*
+/function_local_venvs
+function_local_venvs/

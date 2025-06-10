@@ -1,5 +1,5 @@
 name: data_developer
-sourceId: {{ data_developer_source_id }}
+sourceId: {{data_developer_source_id}}
 capabilities:
 - annotationsAcl:
     actions: [ READ, WRITE ]
