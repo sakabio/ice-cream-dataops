@@ -13,13 +13,13 @@ variables:
       icapi_space_name: icapi_dm_space
       ice_cream_api:
         icapi_extractors_source_id: 7644e6db-ac4f-4a17-b8fc-80efebbb28da
-        tokenUri: ${PROD_IDP_TOKEN_URL}
+        tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${PROD_CDF_PROJECT}
-        scopes: ${PROD_IDP_SCOPES}
-        icapi_trigger_client_id: ${PROD_ICAPI_EXTRACTORS_CLIENT_ID}
-        icapi_trigger_client_secret: ${PROD_ICAPI_EXTRACTORS_CLIENT_SECRET}
-        icapi_extractors_client_id: ${PROD_ICAPI_EXTRACTORS_CLIENT_ID}
-        icapi_extractors_client_secret: ${PROD_ICAPI_EXTRACTORS_CLIENT_SECRET}
+        scopes: ${IDP_SCOPES}
+        icapi_trigger_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID}
+        icapi_trigger_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
+        icapi_extractors_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID}
+        icapi_extractors_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
       data_foundation:
         data_developer_source_id: 15784a9f-9500-46db-8223-6d870e1213fb
       use_cases:
@@ -27,8 +27,8 @@ variables:
           data_pipeline_oee_source_id: 8f924567-72ee-49a0-82d1-c99079ebc6e0
           uc_oee_ds_external_id: ds_uc_oee
           oee_space_name: oee_ts_space
-          data_pipeline_oee_client_id: ${PROD_DATA_PIPELINE_OEE_CLIENT_ID}
-          data_pipeline_oee_client_secret: ${PROD_DATA_PIPELINE_OEE_CLIENT_SECRET}
+          data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID}
+          data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET}
   selected:
   - modules/bootcamp/data_foundation
   - modules/bootcamp/ice_cream_api
