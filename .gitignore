@@ -3,3 +3,6 @@
 /function_local_venvs/*
 /function_local_venvs
 function_local_venvs/
+build/
+/build/*
+build/*
